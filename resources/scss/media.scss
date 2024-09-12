@@ -1,4 +1,18 @@
 @media (max-width: 768px) {
+  .header{
+    &__burger{
+      display: block;
+    }
+    &__menu{
+      display: none;
+    }
+    &__social-links{
+      display: none;
+    }
+    &__inner{
+      justify-content: space-between;
+    }
+  }
   .calculation{
     &__super-inner{
       flex-direction: column;

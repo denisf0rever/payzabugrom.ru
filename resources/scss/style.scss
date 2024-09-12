@@ -82,11 +82,6 @@ section{
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    align-items: center;
-    padding: 15px 0;
     &:before{
       content: "";
       width: 20px;
@@ -111,6 +106,17 @@ section{
       transform: scaleX(-1);
     }
   }
+  &__inner{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px 10px;
+  }
+  &__link{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
   &__logo{
     width: 100px;
     height: auto;
@@ -120,7 +126,6 @@ section{
     height: 100%;
   }
   &__menu{
-    width: 100%;
     overflow: auto;
   }
   &__list{
@@ -130,6 +135,81 @@ section{
     margin: 0 auto;
     width: fit-content;
     padding: 0 10px;
+  }
+  &__social-links{
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  &__social-link{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  &__burger{
+    display: none;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    svg{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__mobile{
+    transform: translateX(100%);
+    transition: all .2s linear;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 230px;
+    background-color: #fff;
+    z-index: 100;
+  }
+  &__mobile-open{
+    transform: translateX(0);
+  }
+}
+
+.header-mobile{
+  &__wrapper{
+    padding: 30px 20px 20px;
+  }
+  &__close{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    svg{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .header{
+    &__menu{
+      display: block;
+    }
+    &__list{
+      flex-direction: column;
+      width: auto;
+      margin-bottom: 30px;
+      padding: 0;
+    }
+    &__social-links{
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      align-items: flex-start;
+      gap: 20px;
+    }
   }
 }
 
