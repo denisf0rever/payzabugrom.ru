@@ -60,7 +60,7 @@ section{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #abc3ff;
+  background-color: #f1f3fa;
   z-index: 0;
   &__wpapper{
     margin-top: 120px;
@@ -82,7 +82,7 @@ section{
 
 .header{
   &__wrapper{
-    background-color: #f1f3fa;
+    background-color: #fff;
     z-index: 15;
     position: fixed;
     top: 0;
@@ -227,7 +227,7 @@ section{
     z-index: 10;
   }
   &__cards{
-    background-color: #abc3ff;
+    background-color: #f1f3fa;
   }
   &__calculation{
     background-color: #fff;
@@ -236,7 +236,7 @@ section{
     background-color: #f5f5f5;
   }
   &__small-block{
-    background-color: #abc3ff;
+    background-color: #f1f3fa;
     padding: 50px 0;
   }
 }
