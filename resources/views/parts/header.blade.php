@@ -13,19 +13,19 @@
       <nav class="header__menu">
         <ul class="header__list">
           <li class="header__item">
-            <a href="#" class="header__link">Продукция</a>
+            <a href="#comission" class="header__link">Комиссия</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">Продукция</a>
+            <a href="#services" class="header__link">Сервисы и подписки</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">Продукция</a>
+            <a href="#contact" class="header__link">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul class="header__social-links">
         <li class="header__social-item">
-          <a href="tel:+79582502577" class="header__social-link">+7 (958) 580-25-77</a>
+          <a href="tel:88005007659" class="header__social-link">8 800 500-76-59</a>
         </li>
         <li class="header__social-item">
           <a href="/" class="header__social-link">WhatsApp</a>

@@ -1,7 +1,7 @@
 @extends('app')
 @section('title', 'Оплата зарубежных сервисов и подписок из России круглосуточно')
-@section('description', '')
-@section('keywords', 'оплата зарубежных сервисов, оплата зарубежных сервисов из россии')
+@section('description', 'Онлайн сервис и телеграм бот оплата зарубежных сервисов из России')
+@section('keywords', 'оплата зарубежных сервисов и подписок, оплата зарубежных отелей из россии')
 @section('canonical', '')
 	
 	@section('content')
@@ -10,128 +10,35 @@
         <div class="cards__wrapper">
           <div class="cards__inner container">
             <div class="cards__header">
-              <h2 class="cards__title">Оплата зарубежных сервисов</h2>
+              <h2 class="cards__title">Оплата за рубежом из России</h2>
               <div class="cards__toggle">
-                <div class="cards__toggle-item cards__toggle-item-active" data-tab="tab-1">Сервисы</div>
-                <div class="cards__toggle-item" data-tab="tab-2">Отели</div>
+                <div class="cards__toggle-item cards__toggle-item-active" data-tab="tab-1">Отели</div>
+                <div class="cards__toggle-item" data-tab="tab-2">Сервисы</div>
               </div>
             </div>
-
-            <div class="cards__enter">
-              <div class="cards__enter-wrapper">
-                <img src="images/placeholder.png" alt="" class="cards__enter-img">
-                <div class="cards__enter-title">Войти в мобильный банк</div>
-                <div class="cards__enter-subtitle">Для андроид</div>
-                <img src="images/expand-more.svg" alt="" class="cards__enter-arrow">
-              </div>
-            </div>
-
+			
             <ul class="cards__list" id="tab-1">
               <li class="cards__card card">
                 <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
+                  <span class="card__title">Airbnb</span>
+                  <div class="card__subtitle">Помощь с оплатой Airbnb</div>
+                  <img src="/static/airbnb.svg" alt="" class="card__img">
                 </div>
               </li>
               <li class="cards__card card">
                 <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Дебетовые карты</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
+                  <span class="card__title">Booking</span>
+                  <div class="card__subtitle">Помощь с оплатой booking</div>
+                  <img src="/static/booking.svg" alt="" class="card__img">
                 </div>
               </li>
             </ul>
             <ul class="cards__list cards__hide" id="tab-2">
               <li class="cards__card card">
                 <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
-                </div>
-              </li>
-              <li class="cards__card card">
-                <div class="card__wrapper">
-                  <span class="card__title">Второй таб</span>
-                  <div class="card__subtitle">Суперкэшбэк до 100%</div>
-                  <img src="images/placeholder.png" alt="" class="card__img">
+                  <span class="card__title">Youtube</span>
+                  <div class="card__subtitle">Оплата подписки Youtube</div>
+                  <img src="/static/youtube.svg" alt="" class="card__img">
                 </div>
               </li>
               <li class="cards__card card">
@@ -142,6 +49,16 @@
                 </div>
               </li>
             </ul>
+			
+            <div class="cards__enter">
+              <a href="tel:88005007659"><div class="cards__enter-wrapper">
+                <img src="/static/phone.svg" alt="" class="cards__enter-img">
+                <div class="cards__enter-title">Обратиться за помощью</div>
+                <div class="cards__enter-subtitle">8 800 500-76-59</div>
+                <img src="/static/expand-more.svg" alt="" class="cards__enter-arrow">
+              </div></a>
+            </div>
+
           </div>
         </div>
 
@@ -155,7 +72,7 @@
                 <form action="" class="calculation__form calculation-form">
                   <span class="calculation-form__status-title" for="status">Текущий статус</span>
                   <div class="calculation-form__select-wrapper">
-                    <img src="images/expand-more.svg" alt="" class="calculation-form__status-arrow">
+                    <img src="/static/expand-more.svg" alt="" class="calculation-form__status-arrow">
                     <span class="calculation-form__span">Доллар $ </span>
                     <input id="currency" class="calculation-form__status-current" name="currency" type="text"
                       value="dollar" readonly hidden>
@@ -168,7 +85,7 @@
                   </div>
                   <span class="calculation-form__status-title" for="status">Валюта</span>
                   <div class="calculation-form__select-wrapper">
-                    <img src="images/expand-more.svg" alt="" class="calculation-form__status-arrow">
+                    <img src="/static/expand-more.svg" alt="" class="calculation-form__status-arrow">
                     <span class="calculation-form__span">Первое</span>
                     <input id="options" class="calculation-form__status-current" name="options" type="text"
                       value="option1" readonly hidden>
@@ -211,8 +128,7 @@
               <li class="questions__item question">
                 <div class="question__wrapper">
                   <div class="question__inner">
-                    <span class="question__title">Можно ли быть самозанятым и в то же время официально
-                      трудоустроенным?</span>
+                    <span class="question__title">Сколько по времени занимает оплата зарубежного сервиса?</span>
                     <div class="question__button">
                       <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
                         class="Accordion__icon">
@@ -223,20 +139,14 @@
                     </div>
                   </div>
                   <div class="question__ansver-wrapper">
-                    <span class="question__ansver-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-                      tempora culpa doloribus vitae, iste sint assumenda esse, aut voluptatum architecto delectus natus
-                      dignissimos tenetur perferendis ipsum rerum necessitatibus sed nihil? Lorem ipsum, dolor sit amet
-                      consectetur adipisicing elit. Maxime
-                      tempora culpa doloribus vitae, iste sint assumenda esse, aut voluptatum architecto delectus natus
-                      dignissimos tenetur perferendis ipsum rerum necessitatibus sed nihil?</span>
+                    <span class="question__ansver-text">От нескольких минут до нескольких часов.</span>
                   </div>
                 </div>
               </li>
               <li class="questions__item question">
                 <div class="question__wrapper">
                   <div class="question__inner">
-                    <span class="question__title">Можно ли быть самозанятым и в то же время официально
-                      трудоустроенным?</span>
+                    <span class="question__title">Что делать, если не удастся оплатить сервис?</span>
                     <div class="question__button">
                       <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
                         class="Accordion__icon">
@@ -247,8 +157,116 @@
                     </div>
                   </div>
                   <div class="question__ansver-wrapper">
-                    <span class="question__ansver-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-                      tempora culpa doloribus vitae, iste sint assumen</span>
+                    <span class="question__ansver-text">В этом случае не нужно переживать, если платеж не прошел, мы вернём вам денежные средства в полном объеме.</span>
+                  </div>
+                </div>
+              </li>
+              <li class="questions__item question">
+                <div class="question__wrapper">
+                  <div class="question__inner">
+                    <span class="question__title">Какие страны и валюты поддерживает платформа?</span>
+                    <div class="question__button">
+                      <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
+                        class="Accordion__icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.7071 5.29289C15.0976 5.68342 15.0976 6.31658 14.7071 6.70711L8.70711 12.7071C8.31658 13.0976 7.68342 13.0976 7.29289 12.7071L1.29289 6.70711C0.902368 6.31658 0.902369 5.68342 1.29289 5.29289C1.68342 4.90237 2.31658 4.90237 2.70711 5.29289L8 10.5858L13.2929 5.29289C13.6834 4.90237 14.3166 4.90237 14.7071 5.29289Z"
+                          fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="question__ansver-wrapper">
+                    <span class="question__ansver-text"> </span>
+                  </div>
+                </div>
+              </li>
+			  <li class="questions__item question">
+                <div class="question__wrapper">
+                  <div class="question__inner">
+                    <span class="question__title">Есть ли бонусы или скидки для постоянных пользователей сервиса?</span>
+                    <div class="question__button">
+                      <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
+                        class="Accordion__icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.7071 5.29289C15.0976 5.68342 15.0976 6.31658 14.7071 6.70711L8.70711 12.7071C8.31658 13.0976 7.68342 13.0976 7.29289 12.7071L1.29289 6.70711C0.902368 6.31658 0.902369 5.68342 1.29289 5.29289C1.68342 4.90237 2.31658 4.90237 2.70711 5.29289L8 10.5858L13.2929 5.29289C13.6834 4.90237 14.3166 4.90237 14.7071 5.29289Z"
+                          fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="question__ansver-wrapper">
+                    <span class="question__ansver-text"> </span>
+                  </div>
+                </div>
+              </li>
+			  <li class="questions__item question">
+                <div class="question__wrapper">
+                  <div class="question__inner">
+                    <span class="question__title">Какие способы оплаты доступны на вашем сайте для международных транзакций?</span>
+                    <div class="question__button">
+                      <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
+                        class="Accordion__icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.7071 5.29289C15.0976 5.68342 15.0976 6.31658 14.7071 6.70711L8.70711 12.7071C8.31658 13.0976 7.68342 13.0976 7.29289 12.7071L1.29289 6.70711C0.902368 6.31658 0.902369 5.68342 1.29289 5.29289C1.68342 4.90237 2.31658 4.90237 2.70711 5.29289L8 10.5858L13.2929 5.29289C13.6834 4.90237 14.3166 4.90237 14.7071 5.29289Z"
+                          fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="question__ansver-wrapper">
+                    <span class="question__ansver-text">Вы можете оплатить любым удобным способом, а мы оплатим нужный вам зарубежный сервис или отель самостоятельно.</span>
+                  </div>
+                </div>
+              </li>
+			  <li class="questions__item question">
+                <div class="question__wrapper">
+                  <div class="question__inner">
+                    <span class="question__title">Какая комиссия и по какому курсу работает Плати за бугром?</span>
+                    <div class="question__button">
+                      <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
+                        class="Accordion__icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.7071 5.29289C15.0976 5.68342 15.0976 6.31658 14.7071 6.70711L8.70711 12.7071C8.31658 13.0976 7.68342 13.0976 7.29289 12.7071L1.29289 6.70711C0.902368 6.31658 0.902369 5.68342 1.29289 5.29289C1.68342 4.90237 2.31658 4.90237 2.70711 5.29289L8 10.5858L13.2929 5.29289C13.6834 4.90237 14.3166 4.90237 14.7071 5.29289Z"
+                          fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="question__ansver-wrapper">
+                    <span class="question__ansver-text">Наша комиссия составляет 10%</span>
+                  </div>
+                </div>
+              </li>
+			  <li class="questions__item question">
+                <div class="question__wrapper">
+                  <div class="question__inner">
+                    <span class="question__title">Легальна ли оплата зарубежных сервисов с помощью сайта Плати за бугром?</span>
+                    <div class="question__button">
+                      <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
+                        class="Accordion__icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.7071 5.29289C15.0976 5.68342 15.0976 6.31658 14.7071 6.70711L8.70711 12.7071C8.31658 13.0976 7.68342 13.0976 7.29289 12.7071L1.29289 6.70711C0.902368 6.31658 0.902369 5.68342 1.29289 5.29289C1.68342 4.90237 2.31658 4.90237 2.70711 5.29289L8 10.5858L13.2929 5.29289C13.6834 4.90237 14.3166 4.90237 14.7071 5.29289Z"
+                          fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="question__ansver-wrapper">
+                    <span class="question__ansver-text">Наша помощь абсолютно законна, мы не используем серые схемы, работаем легально с учётом международных санкций и законов России и других стран, где проводится оплата.</span>
+                  </div>
+                </div>
+              </li>
+			  <li class="questions__item question">
+                <div class="question__wrapper">
+                  <div class="question__inner">
+                    <span class="question__title">Какие факторы учитывает наш сервис для соблюдения законности и безопасности сделок?</span>
+                    <div class="question__button">
+                      <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
+                        class="Accordion__icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.7071 5.29289C15.0976 5.68342 15.0976 6.31658 14.7071 6.70711L8.70711 12.7071C8.31658 13.0976 7.68342 13.0976 7.29289 12.7071L1.29289 6.70711C0.902368 6.31658 0.902369 5.68342 1.29289 5.29289C1.68342 4.90237 2.31658 4.90237 2.70711 5.29289L8 10.5858L13.2929 5.29289C13.6834 4.90237 14.3166 4.90237 14.7071 5.29289Z"
+                          fill="currentColor"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="question__ansver-wrapper">
+                    <span class="question__ansver-text">1. Соответствие местному законодательству: в некоторых странах могут быть ограничения на определённые виды услуг или товаров, например, доступ к онлайн-казино, азартным играм или контенту с возрастными ограничениями. 2. Санкции и международные ограничения: некоторые государства могут ограничивать или запрещать оплату услуг в странах, против которых наложены санкции. Это может касаться, например, России, Ирана, Северной Кореи и других стран, попавших под международные экономические санкции. 3. Налоги и пошлины: важно учитывать возможные налоговые обязательства при оплате зарубежных сервисов, например, при покупке товаров или подписок. В некоторых странах существуют правила, требующие уплаты НДС на цифровые услуги.
+</span>
                   </div>
                 </div>
               </li>
@@ -268,7 +286,7 @@
           </div>
           <div class="small-block__img-part">
             <div class="small-block__img-wrapper">
-              <img src="images/placeholder.png" alt="" class="small-block__img">
+              <img src="/static/contact.svg" alt="" class="small-block__img">
             </div>
           </div>
         </div>

@@ -11,10 +11,9 @@ use App\Http\Controllers\Auth\RegistrationController;
 use App\Http\Controllers\ImageController;
 
 Route::get('/', [HomePageController::class, 'index'])->name('homepage');
+Route::get('/test', fn () => view('service.test'))->name('test');
 
-Route::get('/home', function () {
-    return view('dashboard.main');
-});
+Route::get('/home', function () {return view('dashboard.main');});
 
 	Route::get('/login', [AuthController::class, 'index'])->name('login');
 	Route::post('/login/authenticate', [AuthController::class, 'authenticate'])->name('authenticate');
@@ -26,18 +25,6 @@ Route::get('/home', function () {
 	Route::get('/articles', [PostController::class, 'list'])->name('articles.list');
 	Route::get('/article/{id}', [PostController::class, 'show'])->name('articles.item');
 	Route::get('/category/{id}', [CatergoryController::class, 'show'])->name('category.item');
-	
-	// Профиль
-	Route::get('/profile/{id}', [\App\Http\Controllers\User\UserController::class, 'show'])->name('user.profile.item');
-	
-	// Чат
-	Route::post('/set-cookie', [\App\Http\Controllers\User\UserCookiesController::class, 'setCookie'])->name('set-cookie');
-	Route::get('/get-cookie', [\App\Http\Controllers\User\UserCookiesController::class, 'getCookie'])->name('get-cookie');
-	Route::post('/delete-cookie', [\App\Http\Controllers\User\UserCookiesController::class, 'removeCookie'])->name('delete-cookie');
-	
-Route::middleware(['guest'])->group(function () {
-	Route::get('/chat', [\App\Http\Controllers\Chat\ChatController::class, 'endPoint']);
-});
 	
 Route::middleware(['auth', 'access'])->group(function () {
     Route::get('/dashboard', function () {

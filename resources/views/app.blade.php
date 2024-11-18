@@ -9,17 +9,17 @@
 
     <link rel="canonical" href="https://payzabugrom.ru/@yield('canonical')" />
 
-	<meta name="keywords" content="@yield('keywords', 'Консультация офтальмолога онлайн')" />
-	<meta name="description" content="@yield('description', 'Консультация офтальмолога онлайн: круглосуточно по телефону и в чате')" />
-	<meta name="title" content="@yield('title', 'Консультация офтальмолога онлайн: круглосуточно по телефону и в чате')" />
+	<meta name="keywords" content="@yield('keywords')" />
+	<meta name="description" content="@yield('description')" />
+	<meta name="title" content="@yield('title')" />
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	
-	<meta property="og:title" content="Консультация офтальмолога онлайн: круглосуточно по телефону и в чате"/>
-	<meta property="og:description" content="OkuOku: онлайн сервис офтальмологов, консультации, истории, статьи, врачи">
+	<meta property="og:title" content="@yield('title')"/>
+	<meta property="og:description" content="@yield('description')">
 	<meta property="og:image" content="/logoimage.jpg">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://payzabugrom.ru/">
-	<meta property="og:site_name" content="Консультация офтальмолога онлайн: круглосуточно по телефону и в чате">
+	<meta property="og:site_name" content="@yield('title')е">
 	<link rel="image_src" href="/logoimage.jpg" />
 	<meta name="theme-color" content="#fff">
 
@@ -32,4 +32,5 @@
 		@yield('content')
 	</main>  
 	@include('parts.footer')
+</body>
 </html>
