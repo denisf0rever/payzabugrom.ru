@@ -5,7 +5,6 @@
 @section('canonical', '')
 
 @section('content')
-@section('mainbg.blade.php')
 <div class="main__wrapper">
   <section class="main__cards cards" id="services">
     <div class="cards__wrapper">
