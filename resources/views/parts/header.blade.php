@@ -1,9 +1,3 @@
-<div class="main-bg">
-  <div class="main-bg__wpapper">
-    <h1 class="main-bg__title">Оплата зарубежных сервисов и подписок</h1>
-    <img src="/static/main.png" alt="" class="main-bg__img">
-  </div>
-</div>
 <header class="header">
   <div class="header__wrapper">
     <div class="header__inner container">
@@ -24,14 +18,18 @@
         </ul>
       </nav>
       <ul class="header__social-links">
-        <li class="header__social-item">
+        <li class="header__social-item header__social-item-phone">
           <a href="tel:88005007659" class="header__social-link">8 800 500-76-59</a>
         </li>
         <li class="header__social-item">
-          <a href="/" class="header__social-link">WhatsApp</a>
+          <a href="/" class="header__social-link">
+            <img src="/static/telegram.svg" alt="" class="header__social-img">
+          </a>
         </li>
         <li class="header__social-item">
-          <a href="/" class="header__social-link">Telegram</a>
+          <a href="/" class="header__social-link">
+            <img src="/static/whatsapp.svg" alt="" class="header__social-img">
+          </a>
         </li>
       </ul>
       <div class="header__burger">
@@ -55,13 +53,13 @@
       <nav class="header__menu">
         <ul class="header__list">
           <li class="header__item">
-            <a href="#" class="header__link">Продукция</a>
+            <a href="#comission" class="header__link">Комиссия</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">Продукция</a>
+            <a href="#services" class="header__link">Сервисы и подписки</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">Продукция</a>
+            <a href="#contact" class="header__link">Контакты</a>
           </li>
         </ul>
       </nav>

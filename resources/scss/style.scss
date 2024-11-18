@@ -146,13 +146,20 @@ section{
   }
   &__social-links{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
   }
   &__social-link{
     &:hover{
       text-decoration: underline;
     }
+  }
+  &__social-item-phone{
+    margin-right: 10px;
+  }
+  &__social-img{
+    width: 24px;
+    height: 24px;
   }
   &__burger{
     display: none;
@@ -708,9 +715,11 @@ section{
       border-top-right-radius: 15px;
     }
     &__inner{
-      height: 150px;
+      padding: 50px 10px;
+      height: 200px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
     &__phone{
       margin-left: auto;
@@ -726,12 +735,36 @@ section{
       color: #f2f3f5;
     }
     &__social{
-      margin-left: 100px;
       display: flex;
-      gap: 20px;
+      gap: 5px;
+    }
+    &__social-img-wrapper{
+      background-color: #fff;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
     }
     &__social-img{
-      width: 20px;
+      width: 24px;
+      height: 24px;
+    }
+    &__part{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+    &__links{
+      display: flex;
+      gap: 10px;
+    }
+    &__link{
+      &:hover{
+        text-decoration: underline
+      }
     }
   }
 
