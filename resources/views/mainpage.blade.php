@@ -122,6 +122,39 @@
       </div>
     </div>
   </section>
+  <section class="main__info info">
+    <div class="info__wrapper">
+      <div class="container">
+        <h2 class="info__title">Как выиграть призы</h2>
+        <ul class="info__list">
+          <li class="info__item">
+            <span class="info__item-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            <span class="info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus
+              dolor corporis nam sequi quasi commodi aspernatur vero? Ipsum ut impedit quas laboriosam ipsam illo maxime
+              atque corrupti suscipit. Excepturi.</span>
+          </li>
+          <li class="info__item">
+            <span class="info__item-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            <span class="info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus
+              dolor corporis nam sequi quasi commodi aspernatur vero? </span>
+            <a href="/" class="info__link">Подробнее о лигах</a>
+          </li>
+          <li class="info__item">
+            <span class="info__item-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            <span class="info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus
+              dolor corporis nam sequi quasi commodi aspernatur vero? Ipsum ut impedit quas laboriosam ipsam illo maxime
+              atque corrupti suscipit. Excepturi.</span>
+          </li>
+          <li class="info__item">
+            <span class="info__item-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            <span class="info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus
+              dolor corporis nam sequi quasi commodi aspernatur vero? </span>
+            <a href="/" class="info__link">Подробнее о лигах</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
   <section class="main__question questions">
     <div class="questions__wrapper">
       <div class="questions__inner container">

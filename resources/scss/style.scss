@@ -240,7 +240,7 @@ section{
     background-color: #fff;
   }
   &__question{
-    background-color: #f5f5f5;
+    background-color: #fff;
   }
   &__small-block{
     background-color: #f1f3fa;
@@ -248,6 +248,9 @@ section{
   }
   &__banner{
     background-color: #f1f3fa;
+  }
+  &__info{
+    background-color: #f5f5f5;
   }
 }
 
@@ -321,5 +324,5 @@ section{
 @import 'mainpage/calculation.scss';
 @import 'mainpage/cards.scss';
 @import 'infopage/banner.scss';
-@import 'infopage/info.scss';
+@import 'common/info.scss';
 @import 'media';
