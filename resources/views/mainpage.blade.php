@@ -5,6 +5,7 @@
 @section('canonical', '')
 
 @section('content')
+@include('parts.mainbg')
 <div class="main__wrapper">
   <section class="main__cards cards" id="services">
     <div class="cards__wrapper">
