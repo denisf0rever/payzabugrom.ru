@@ -11,7 +11,12 @@ use App\Http\Controllers\Auth\RegistrationController;
 use App\Http\Controllers\ImageController;
 
 Route::get('/', [HomePageController::class, 'index'])->name('homepage');
-Route::get('/test', fn () => view('service.test'))->name('test');
+Route::get('/booking', fn () => view('service.booking'))->name('booking');
+Route::get('/airbnb', fn () => view('service.airbnb'))->name('airbnb');
+
+
+
+
 
 Route::get('/home', function () {return view('dashboard.main');});
 
@@ -65,11 +70,6 @@ Route::middleware(['auth', 'access'])->group(function () {
 	
 	// Консультации
 	Route::get('/dashboard/consultations', function() {return 'ok';})->middleware('can:show')->name('dashboard.consultations');
-	
-	// Чат: оператор
-	Route::get('/dashboard/chat', [\App\Http\Controllers\Chat\ChatController::class, 'index'])->name('dashboard.chat');
-	
-
 });
 
 
