@@ -233,7 +233,7 @@
   }
 }
 
-@media (max-height: 1366px) {
+@media (max-height: 1376px) {
   .main {
     &__wrapper {
       margin-top: 41vh;
@@ -261,6 +261,14 @@
   .main {
     &__wrapper {
       margin-top: 65vh;
+    }
+  }
+}
+
+@media (max-height: 845px) {
+  .main {
+    &__wrapper {
+      margin-top: 67.5vh;
     }
   }
 }
