@@ -244,7 +244,15 @@
 @media (max-height: 910px) {
   .main {
     &__wrapper {
-      margin-top: 80vh;
+      margin-top: 65vh;
+    }
+  }
+}
+
+@media (max-height: 768px) {
+  .main {
+    &__wrapper {
+      margin-top: 70vh;
     }
   }
 }
