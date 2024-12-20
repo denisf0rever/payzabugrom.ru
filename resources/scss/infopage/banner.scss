@@ -21,18 +21,22 @@
     margin: 0;
   }
   &__subtitle{
-    color: #545d57;
     font-size: 16px;
     font-weight: 500;
   }
   &__button{
-    display: inline-block;
+    display: flex;
     width: fit-content;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #ffdc04;
-    padding: 10px 15px;
     color: #fff;
+    min-width: 128px;
+    padding: 0 27px;
+    background-color: #0794fc;
+    color: #fff;
+    border-radius: 12px;
+    min-height: 56px;
+    align-items: center;
   }
   &__right{
     width: 40%;
@@ -56,7 +60,7 @@
   &__item{
     width: 23%;
     border-radius: 20px;
-    background-color: #d4ecdd;
+    background-color: rgb(242, 243, 245);
     position: relative;
     padding: 15px;
     aspect-ratio: 5 / 4;

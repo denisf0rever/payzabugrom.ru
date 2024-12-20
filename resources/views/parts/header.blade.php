@@ -2,7 +2,7 @@
   <div class="header__wrapper">
     <div class="header__inner container">
       <div class="header__logo">
-        <img src="/static/logo.png" alt="" class="header__logo-img">
+        <a href="/"><img src="/static/logo.png" alt="" class="header__logo-img"></a>
       </div>
       <nav class="header__menu">
         <ul class="header__list">

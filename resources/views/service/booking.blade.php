@@ -1,9 +1,8 @@
 @extends('app')
 @section('title', 'Оплата Booking сервис бронирования из России')
-@section('description', '')
-@section('keywords', 'оплата booking, booking оплата картой, booking оплата из россии')
+@section('description', 'Поможем оплатить бронирование на Booking онлайн из России, если не проходит оплата в рублях')
+@section('keywords', 'оплата booking, booking оплата картой, booking оплата из России')
 @section('canonical', 'booking')
-
 @section('content')
 
 <section class="main__banner banner">
@@ -11,8 +10,8 @@
     <div class="banner__top">
       <div class="banner__left">
         <h1 class="banner__title">Оплата Booking из России</h1>
-        <span class="banner__subtitle">Поможем оплатить бронирование на booking, если не проходит оплата</span>
-        <a href="/" class="banner__button">Оформить депозит</a>
+        <span class="banner__subtitle">Поможем оплатить бронирование на Booking, если не проходит оплата или возникли трудности из-за ограничений</span>
+        <a href="/" class="banner__button">Оплатить Booking</a>
       </div>
       <div class="banner__right">
         <img src="/static/main.png" alt="" class="banner__img">
@@ -22,10 +21,10 @@
       <ul class="banner-cards__list">
         <li class="banner-cards__item">
           <span class="banner-cards__title">
-            Онлайн
+            Самая низкая комиссия
           </span>
           <span class="banner-cards__subtitle">
-            Станьте клиентом дистанционно
+            Она составляет 10%
           </span>
           <div class="banner-cards__img-wrapper">
             <img src="/static/telegram.svg" alt="" class="banner-cards__img">
@@ -33,10 +32,10 @@
         </li>
         <li class="banner-cards__item">
           <span class="banner-cards__title">
-            Онлайн
+            Оперативно
           </span>
           <span class="banner-cards__subtitle">
-            Станьте клиентом дистанционно
+            После обращения, оплата Booking займет не более часа
           </span>
           <div class="banner-cards__img-wrapper">
             <img src="/static/telegram.svg" alt="" class="banner-cards__img">
@@ -44,10 +43,10 @@
         </li>
         <li class="banner-cards__item">
           <span class="banner-cards__title">
-            Онлайн
+            Круглосуточно
           </span>
           <span class="banner-cards__subtitle">
-            Станьте клиентом дистанционно
+            Быстро и круглосуточно реагируем на обращение
           </span>
           <div class="banner-cards__img-wrapper">
             <img src="/static/telegram.svg" alt="" class="banner-cards__img">
@@ -55,10 +54,10 @@
         </li>
         <li class="banner-cards__item">
           <span class="banner-cards__title">
-            Онлайн
+            Найдежно
           </span>
           <span class="banner-cards__subtitle">
-            Станьте клиентом дистанционно
+            Множество положительных отзывов
           </span>
           <div class="banner-cards__img-wrapper">
             <img src="/static/telegram.svg" alt="" class="banner-cards__img">
@@ -71,7 +70,7 @@
 <section class="main__info info">
   <div class="info__wrapper">
     <div class="container">
-      <h2 class="info__title">Как оплатить Booking</h2>
+      <h2 class="info__title">Немного о Booking</h2>
       <ul class="info__list">
         <li class="info__item">
           <span class="info__item-title">Что такое Букинг?</span>
