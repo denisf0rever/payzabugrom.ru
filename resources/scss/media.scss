@@ -249,10 +249,18 @@
   }
 }
 
-@media (max-height: 768px) {
+@media (max-height: 800px) {
   .main {
     &__wrapper {
       margin-top: 70vh;
+    }
+  }
+}
+
+@media (max-height: 768px) {
+  .main {
+    &__wrapper {
+      margin-top: 75vh;
     }
   }
 }
