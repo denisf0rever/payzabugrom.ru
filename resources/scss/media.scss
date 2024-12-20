@@ -233,6 +233,22 @@
   }
 }
 
+@media (max-height: 1400px) {
+  .main {
+    &__wrapper {
+      margin-top: 35vh;
+    }
+  }
+}
+
+@media (max-height: 1200px) {
+  .main {
+    &__wrapper {
+      margin-top: 45vh;
+    }
+  }
+}
+
 @media (max-height: 1080px) {
   .main {
     &__wrapper {
