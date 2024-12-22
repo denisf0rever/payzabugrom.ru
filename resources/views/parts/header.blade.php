@@ -22,12 +22,12 @@
           <a href="tel:88005007659" class="header__social-link">8 800 500-76-59</a>
         </li>
         <li class="header__social-item">
-          <a href="/" class="header__social-link">
+          <a href="https://t.me/payzabugrom" class="header__social-link" targer="_blank">
             <img src="/static/telegram.svg" alt="" class="header__social-img">
           </a>
         </li>
         <li class="header__social-item">
-          <a href="/" class="header__social-link">
+          <a href="https://api.whatsapp.com/send/?phone=79656570181" class="header__social-link" targer="_blank">
             <img src="/static/whatsapp.svg" alt="" class="header__social-img">
           </a>
         </li>
@@ -65,13 +65,13 @@
       </nav>
       <ul class="header__social-links">
         <li class="header__social-item">
-          <a href="tel:+79582502577" class="header__social-link">+7 (958) 580-25-77</a>
+          <a href="tel:88005007659" class="header__social-link">8 800 500-76-59</a>
         </li>
         <li class="header__social-item">
-          <a href="/" class="header__social-link">WhatsApp</a>
+          <a href="https://api.whatsapp.com/send/?phone=79656570181" class="header__social-link" target="_blank">WhatsApp</a>
         </li>
         <li class="header__social-item">
-          <a href="/" class="header__social-link">Telegram</a>
+          <a href="https://t.me/payzabugrom" class="header__social-link" target="_blank">Telegram</a>
         </li>
       </ul>
     </div>
