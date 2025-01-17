@@ -24,12 +24,12 @@
             <a href="tel:88005007659" class="footer__phone-link">8 800 500-76-59</a>
           </div>
           <div class="footer__social">
-            <a href="/" class="footer__social-link">
+            <a href="https://t.me/payzabugrom" class="footer__social-link" target="_blank">
               <div class="footer__social-img-wrapper">
                 <img src="/static/telegram.svg" alt="" class="footer__social-img">
               </div>
             </a>
-            <a href="/" class="footer__social-link">
+            <a href="https://api.whatsapp.com/send/?phone=79656570181" class="footer__social-link" target="_blank">
               <div class="footer__social-img-wrapper">
                 <img src="/static/whatsapp.svg" alt="" class="footer__social-img">
               </div>
@@ -67,3 +67,14 @@ ym(98824654, "init", {
     <div><img src="https://mc.yandex.ru/watch/98824654" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript>
   <!-- /Yandex.Metrika counter -->
+  
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-612H6K7YYD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-612H6K7YYD');
+</script>

@@ -13,6 +13,8 @@ use App\Http\Controllers\ImageController;
 Route::get('/', [HomePageController::class, 'index'])->name('homepage');
 Route::get('/booking', fn () => view('service.booking'))->name('booking');
 Route::get('/airbnb', fn () => view('service.airbnb'))->name('airbnb');
+Route::get('/money-transfer', fn () => view('service.money-transfer'))->name('money-transfer');
+Route::get('/google-disk', fn () => view('service.google-disk'))->name('google-disk');
 
 
 

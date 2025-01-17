@@ -44,20 +44,20 @@
             </div>
           </li>
           <li class="cards__card card">
-            <div class="card__wrapper">
-              <span class="card__title">Второй таб</span>
-              <div class="card__subtitle">Суперкэшбэк до 100%</div>
-              <img src="images/placeholder.png" alt="" class="card__img">
-            </div>
+            <a href="{{ route('google-disk') }}" class="card__wrapper">
+              <span class="card__title">Google Disk</span>
+              <div class="card__subtitle">Оплата Google Disk</div>
+              <img src="/static/google-drive.svg" alt="" class="card__img">
+            </a>
           </li>
         </ul>
         <ul class="cards__list cards__hide" id="tab-3">
           <li class="cards__card card">
-            <div class="card__wrapper">
+            <a href="{{ route('money-transfer') }}" class="card__wrapper">
               <span class="card__title">Переводы</span>
               <div class="card__subtitle">Денежные переводы зарубеж</div>
-              <img src="/static/youtube.svg" alt="" class="card__img">
-            </div>
+              <img src="/static/money-transfer.svg" alt="" class="card__img">
+            </a>
           </li>
         </ul>
 

@@ -11,7 +11,7 @@
     <div class="banner__top">
       <div class="banner__left">
         <h1 class="banner__title">Оплата Airbnb из России</h1>
-        <span class="banner__subtitle">Поможем оплатить бронирование на Booking, если не проходит оплата или возникли трудности из-за ограничений</span>
+        <span class="banner__subtitle">Поможем оплатить бронирование на Airbnb, если не проходит оплата или возникли трудности из-за ограничений</span>
         <a href="/" class="banner__button">Оплатить Airbnb</a>
       </div>
       <div class="banner__right">
@@ -93,4 +93,5 @@
     </div>
   </div>
 </section>
+@include('parts.contact')
 @endsection

@@ -45,7 +45,9 @@ a {
 }
 
 body {
-    font-family: "ALS Schlange sans";
+	font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
     font-weight: normal;
     font-style: normal;
     color: #000;
@@ -72,7 +74,7 @@ section {
         font-size: 50px;
         max-width: 500px;
         margin: 0 auto;
-        font-weight: 600;
+        font-weight: 600;font-family: ALS Schlange sans;
     }
     &__img {
         max-width: 500px;
