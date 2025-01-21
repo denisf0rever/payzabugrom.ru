@@ -36,7 +36,7 @@
             Оперативно
           </span>
           <span class="banner-cards__subtitle">
-            После обращения, денежный перевод займет не менее суток
+            После обращения, денежный перевод займет не более суток
           </span>
           <div class="banner-cards__img-wrapper">
             <img src="/static/telegram.svg" alt="" class="banner-cards__img">
