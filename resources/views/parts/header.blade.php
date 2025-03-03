@@ -13,7 +13,7 @@
             <a href="#services" class="header__link">Сервисы и подписки</a>
           </li>
           <li class="header__item">
-            <a href="#contact" class="header__link">Контакты</a>
+            <a href="#contact" class="header__link">Реквизиты</a>
           </li>
         </ul>
       </nav>

@@ -1,8 +1,8 @@
 @extends('app')
 @section('title', 'Перевод денег из России за рубеж, денежные переводы онлайн')
-@section('description', 'Поможем оплатить бронирование на Airbnb онлайн из России, если не проходит оплата в рублях')
-@section('keywords', 'оплата Airbnb, Airbnb оплата картой, Airbnb оплата из россии')
-@section('canonical', 'airbnb')
+@section('description', 'Поможем перевести деньги из России, перевод в любую страну')
+@section('keywords', 'денежные переводы из россии, перевод денег за рубеж')
+@section('canonical', 'money-transfer')
 
 @section('content')
 

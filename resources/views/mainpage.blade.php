@@ -1,6 +1,6 @@
 @extends('app')
 @section('title', 'Оплата зарубежных сервисов и подписок из России круглосуточно')
-@section('description', 'PayZaBugrom - это платежи по всему миру легко и безопасно! Онлайн сервис и телеграм бот оплата зарубежных сервисов из России')
+@section('description', 'ПэйЗаБугром - это платежи по всему миру легко и безопасно! Онлайн сервис и телеграм бот оплата зарубежных сервисов из России')
 @section('keywords', 'оплата зарубежных сервисов и подписок, оплата зарубежных отелей из россии')
 @section('canonical', '')
 
@@ -37,11 +37,11 @@
         </ul>
         <ul class="cards__list cards__hide" id="tab-2">
           <li class="cards__card card">
-            <div class="card__wrapper">
-              <span class="card__title">Youtube</span>
+             <a href="{{ route('youtube') }}" class="card__wrapper">
+              <span class="card__title">Youtube Premiumm</span>
               <div class="card__subtitle">Оплата подписки Youtube</div>
               <img src="/static/youtube.svg" alt="" class="card__img">
-            </div>
+            </a>
           </li>
           <li class="cards__card card">
             <a href="{{ route('google-disk') }}" class="card__wrapper">
@@ -55,6 +55,41 @@
               <span class="card__title">Антивирус Eset</span>
               <div class="card__subtitle">Оплата Eset</div>
               <img src="/static/eset.svg" alt="" class="card__img">
+            </a>
+          </li>
+          <li class="cards__card card">
+            <a href="{{ route('spotify') }}" class="card__wrapper">
+              <span class="card__title">Spotify</span>
+              <div class="card__subtitle">Оплата Spotify</div>
+              <img src="/static/spotify.svg" alt="" class="card__img">
+            </a>
+          </li>
+          <li class="cards__card card">
+            <a href="{{ route('zoom') }}" class="card__wrapper">
+              <span class="card__title">Zoom</span>
+              <div class="card__subtitle">Оплата Zoom</div>
+              <img src="/static/zoom.svg" alt="" class="card__img">
+            </a>
+          </li>
+          <li class="cards__card card">
+            <a href="{{ route('suno') }}" class="card__wrapper">
+              <span class="card__title">Suno</span>
+              <div class="card__subtitle">Оплата Suno</div>
+              <img src="/static/suno.svg" alt="" class="card__img">
+            </a>
+          </li>
+          <li class="cards__card card">
+            <a href="{{ route('chatgpt') }}" class="card__wrapper">
+              <span class="card__title">ChatGPT</span>
+              <div class="card__subtitle">Оплата ChatGPT</div>
+              <img src="/static/chatgpt.svg" alt="" class="card__img">
+            </a>
+          </li>
+          <li class="cards__card card">
+            <a href="{{ route('grok') }}" class="card__wrapper">
+              <span class="card__title">Grok</span>
+              <div class="card__subtitle">Оплата Grok</div>
+              <img src="/static/grok.svg" alt="" class="card__img">
             </a>
           </li>
         </ul>
@@ -218,7 +253,7 @@
                 </div>
               </div>
               <div class="question__ansver-wrapper">
-                <span class="question__ansver-text"> </span>
+                <span class="question__ansver-text">Мы принимаем доллары, евро, рубли, криптовалюту. Переводы и оплату осуществляем по всей Земле.</span>
               </div>
             </div>
           </li>
@@ -236,7 +271,7 @@
                 </div>
               </div>
               <div class="question__ansver-wrapper">
-                <span class="question__ansver-text"> </span>
+                <span class="question__ansver-text">Накопительная система поощрения клиентов разрабатывается. Для постоянных клиентов имеются скидки.</span>
               </div>
             </div>
           </li>
@@ -281,8 +316,7 @@
           <li class="questions__item question">
             <div class="question__wrapper">
               <div class="question__inner">
-                <span class="question__title">Легальна ли оплата зарубежных сервисов с помощью сайта Плати за
-                  бугром?</span>
+                <span class="question__title">Легальна ли оплата зарубежных сервисов с помощью сайта Пэй за бугром?</span>
                 <div class="question__button">
                   <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"
                     class="Accordion__icon">
@@ -330,6 +364,22 @@
       </div>
     </div>
   </section>
-  @include('parts.contact')
+
+ <section class="main__info info" id="contact">
+    <div class="info__wrapper">
+      <div class="container">
+        <h3 class="info__title">Реквизиты</h3>
+        <ul class="info__list">
+          <li class="info__item">
+            <span class="info__item-title">ИП Кадыргулов Денис Радикович</span>
+            <span class="info__text"><b>ИНН:</b> 860804588537<br />
+			<b>ОГРНИП:</b> 310028013900368<br />
+			<b>Действует на основании:</b> Свидетельства<br />
+			<b>Юридический адрес:</b> Республика Башкортостан, г. Уфа, Проспект Октября 132/2, офис. 54</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>
 @endsection

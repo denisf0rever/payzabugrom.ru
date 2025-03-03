@@ -16,9 +16,12 @@ Route::get('/airbnb', fn () => view('service.airbnb'))->name('airbnb');
 Route::get('/money-transfer', fn () => view('service.money-transfer'))->name('money-transfer');
 Route::get('/google-disk', fn () => view('service.google-disk'))->name('google-disk');
 Route::get('/eset', fn () => view('service.eset'))->name('eset');
-
-
-
+Route::get('/youtube', fn () => view('service.youtube'))->name('youtube');
+Route::get('/spotify', fn () => view('service.spotify'))->name('spotify');
+Route::get('/zoom', fn () => view('service.zoom'))->name('zoom');
+Route::get('/chatgpt', fn () => view('service.chatgpt'))->name('chatgpt');
+Route::get('/suno', fn () => view('service.suno'))->name('suno');
+Route::get('/grok', fn () => view('service.grok'))->name('grok');
 
 
 Route::get('/home', function () {return view('dashboard.main');});
