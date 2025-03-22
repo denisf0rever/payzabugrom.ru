@@ -113,6 +113,24 @@
               </div>
             </a>
           </li>
+          <li class="cards__card card">
+            <a href="{{ route('preply') }}" class="card__wrapper">
+              <span class="card__title">Preply</span>
+              <div class="card__subtitle">Оплата Preply</div>
+              <div class="card__img-wrapper">
+                <img src="/static/preply.svg" alt="" class="card__img">
+              </div>
+            </a>
+          </li>
+          <li class="cards__card card">
+            <a href="{{ route('figma') }}" class="card__wrapper">
+              <span class="card__title">Figma</span>
+              <div class="card__subtitle">Оплата Figma</div>
+              <div class="card__img-wrapper">
+                <img src="/static/figma.svg" alt="" class="card__img">
+              </div>
+            </a>
+          </li>
         </ul>
         <ul class="cards__list cards__hide" id="tab-3">
           <li class="cards__card card">

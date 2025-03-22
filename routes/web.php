@@ -22,6 +22,8 @@ Route::get('/zoom', fn () => view('service.zoom'))->name('zoom');
 Route::get('/chatgpt', fn () => view('service.chatgpt'))->name('chatgpt');
 Route::get('/suno', fn () => view('service.suno'))->name('suno');
 Route::get('/grok', fn () => view('service.grok'))->name('grok');
+Route::get('/preply', fn () => view('service.preply'))->name('preply');
+Route::get('/figma', fn () => view('service.figma'))->name('figma');
 
 
 Route::get('/home', function () {return view('dashboard.main');});
